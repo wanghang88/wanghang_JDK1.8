@@ -1,14 +1,17 @@
-package com.wanghang;
+package wanghang;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
-
+/**
+ *HashMap源码分析
+ *
+ *
+ *
+ */
+public class HashMapDemo {
     public static void main(String[] args) {
-
         Map<String,Object> map=new HashMap<>();
-
         map.put("a",1);
         map.put("b",2);
         map.put("c",3);
