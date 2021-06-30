@@ -9,6 +9,14 @@ package wanghang.juc.aqs;
 
 
 
+  AQS原理分析的博文讲解得不错
+  https://www.cnblogs.com/waterystone/p/4920797.html
+  https://www.cnblogs.com/chengxiao/archive/2017/07/24/7141160.html#a1-1
+
+
+
+
+
  */
 public class AbstractQueuedSynchronizer {
 }
