@@ -34,6 +34,10 @@ package wanghang.jvm;
    https://www.jianshu.com/p/dcbb42ab9f4c
 
 
+   JVM GC运行原理(主要是垃圾回收原理以及怎么排查FullGC)
+   https://mp.weixin.qq.com/s/P8s3kuceBNovUP5adXpFCQ
+
+
 
 
 
