@@ -5,9 +5,9 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * LinkedList源码分析
- *
- *
+  LinkedList源码分析
+
+
  */
 public class LinkedListDemo {
 
