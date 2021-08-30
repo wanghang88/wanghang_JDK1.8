@@ -11,6 +11,17 @@ import java.util.concurrent.locks.ReentrantLock;
   基于AQS实现ReetrantLock以及Condition的原理
   https://blog.csdn.net/javazejian/article/details/75043422
 
+
+
+
+  1)关于ReentrantLock非公平锁和公平锁是如何实现的？
+
+
+
+
+
+
+
  */
 public class ReentrantLockDemo {
 
