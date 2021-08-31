@@ -1,4 +1,4 @@
-package wanghang;
+package wanghang.datastructure.list;
 
 
 import java.util.LinkedList;

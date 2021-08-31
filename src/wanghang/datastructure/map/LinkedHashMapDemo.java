@@ -1,4 +1,4 @@
-package wanghang;
+package wanghang.datastructure.map;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
