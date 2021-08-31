@@ -11,6 +11,9 @@ import java.util.concurrent.ConcurrentHashMap;
  https://blog.csdn.net/yxh13521338301/article/details/105598561
 
 
+ ConcurrentHashMap 1.7的源码分析,这里面有分段锁的概念:
+ https://www.cnblogs.com/chengxiao/p/6842045.html
+
  */
 public class ConcurrentHashMapDemo {
 

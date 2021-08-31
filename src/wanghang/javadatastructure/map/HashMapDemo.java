@@ -22,6 +22,13 @@ import java.util.Map;
 
 
 
+
+
+ JDK 1.7源码分析(主要包括,
+ 什么是哈希表,HashMap的实现原理,
+ 为什么数组的长度一定是2的次幂,重写equals方法的同时需要重写hashCode方法，以及整个原理的总结)
+ https://www.cnblogs.com/chengxiao/p/6059914.html
+
  //帝都的雁的博文,HashMap1.7源码剖析
  https://blog.csdn.net/yxh13521338301/article/details/105535513
  帝都的雁： 头插法会导致hashmap7扩容死循环而尾插法却不会
