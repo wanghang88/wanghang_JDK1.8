@@ -1,4 +1,4 @@
-package wanghang.datastructure.list;
+package wanghang.javadatastructure.list;
 
 
 import java.util.ArrayList;
