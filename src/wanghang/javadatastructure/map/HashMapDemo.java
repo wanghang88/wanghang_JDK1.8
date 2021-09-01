@@ -34,6 +34,11 @@ import java.util.Map;
  帝都的雁： 头插法会导致hashmap7扩容死循环而尾插法却不会
  https://blog.csdn.net/yxh13521338301/article/details/105629318
 
+
+
+ 如何决定使用 HashMap 还是 TreeMap(也就是HashMap和TreeMap的区别)
+ https://mp.weixin.qq.com/s/whnqAD6k83Mfl-IHgbl4ig
+
  */
 public class HashMapDemo {
     public static void main(String[] args) {
