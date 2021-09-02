@@ -19,6 +19,16 @@ package wanghang.datastructure;
 
  数据结构与算法的gitHub:
  https://github.com/MageByte-Zero/algorithms
+
+
+
+
+
+
+
+ 树形结构：
+ 权限模型的多叉树模型实践
+ https://blog.csdn.net/antony9118/article/details/52704457
  */
 public class DataStructureDemo {
 }
