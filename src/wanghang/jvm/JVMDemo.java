@@ -24,11 +24,20 @@ package wanghang.jvm;
    JVM的垃圾搜集器:
    https://www.jianshu.com/p/dcbb42ab9f4c
 
+   整个JVM总结得比较全的:
+   https://www.jianshu.com/nb/29039435
+
+  https://mp.weixin.qq.com/s/oz2v3bVXGWeX945H6syoLA
+
+
+ 3:java的JVM调优:
+   JVM日志参数的补全
+   https://mp.weixin.qq.com/s/XZFEgf1ZS7gNt7lku3TF4g
    JVM GC运行原理(主要是垃圾回收原理以及怎么排查FullGC)
    https://mp.weixin.qq.com/s/P8s3kuceBNovUP5adXpFCQ
 
-   整个JVM总结得比较全的:
-   https://www.jianshu.com/nb/29039435
+
+
 
  */
 public class JVMDemo {
