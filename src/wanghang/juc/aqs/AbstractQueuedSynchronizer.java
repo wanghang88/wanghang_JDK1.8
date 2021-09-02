@@ -7,13 +7,15 @@ package wanghang.juc.aqs;
   https://mp.weixin.qq.com/s?__biz=MzAwMDg2OTAxNg==&mid=2652048892&idx=1&sn=1b12dc819ec677a2af67875d7fbbe4a0&scene=21#wechat_redirect
 
 
-
-
   2:AQS原理分析的博文讲解得不错
   https://www.cnblogs.com/waterystone/p/4920797.html
   https://www.cnblogs.com/chengxiao/archive/2017/07/24/7141160.html#a1-1
   AQS原理分析也不错：
   https://www.jianshu.com/p/b7ec536c9ed7
+
+
+  AQS的原理(手写AQS)
+  https://mp.weixin.qq.com/s/oHx2n0_EWUPt8m-7weRX0Q
 
 
 
