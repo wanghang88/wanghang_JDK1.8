@@ -26,8 +26,8 @@ package wanghang.jvm;
 
    整个JVM总结得比较全的:
    https://www.jianshu.com/nb/29039435
-
-  https://mp.weixin.qq.com/s/oz2v3bVXGWeX945H6syoLA
+   帝都的大雁：解刨的JVM(全面介绍JVM)
+   https://mp.weixin.qq.com/s/oz2v3bVXGWeX945H6syoLA
 
 
  3:java的JVM调优:
