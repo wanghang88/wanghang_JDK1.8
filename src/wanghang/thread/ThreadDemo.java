@@ -10,6 +10,9 @@ package wanghang.thread;
    2:Java线程间通信之wait/notify机制
    https://www.cnblogs.com/chengxiao/p/7043529.html
 
+  JAVA多线程（五）用lock、synchronized、阻塞队列三种方法实现生产者消费者模式
+  https://blog.csdn.net/antony9118/article/details/51500278
+
  */
 public class ThreadDemo {
 
