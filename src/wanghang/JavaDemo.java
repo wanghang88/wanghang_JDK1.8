@@ -17,6 +17,8 @@ package wanghang;
  1:设置中配置让debug模式
  2:SOURCEPATH设置成你目录中的src目录，原来的删除掉，更换成解压出来的Src的目录。
    其中javafx-src是JAVA SE界面库，如果没有使用到可以不加载源代码
+
+
  */
 public class JavaDemo {
 }
