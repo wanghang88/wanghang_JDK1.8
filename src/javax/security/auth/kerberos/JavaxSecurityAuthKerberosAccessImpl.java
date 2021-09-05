@@ -34,12 +34,11 @@ class JavaxSecurityAuthKerberosAccessImpl implements JavaxSecurityAuthKerberosAc
         return ktab.takeSnapshot();
     }
 
-    @Override
+
     public KerberosTicket kerberosTicketGetProxy(KerberosTicket kerberosTicket) {
         return null;
     }
 
-    @Override
     public void kerberosTicketSetProxy(KerberosTicket kerberosTicket, KerberosTicket kerberosTicket1) {
 
     }

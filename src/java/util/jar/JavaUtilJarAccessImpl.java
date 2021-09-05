@@ -62,17 +62,16 @@ class JavaUtilJarAccessImpl implements JavaUtilJarAccess {
         return jar.getManifestDigests();
     }
 
-    @Override
+
     public Attributes getTrustedAttributes(Manifest manifest, String s) {
         return null;
     }
 
-    @Override
     public void ensureInitialization(JarFile jarFile) {
 
     }
 
-    @Override
+
     public boolean isInitializing() {
         return false;
     }
