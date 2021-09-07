@@ -28,9 +28,6 @@ public class SemaphoreDemo {
 
 
 
-
-
-
     //内部类
     static class TestSemaphone implements Runnable {
         private final Semaphore semaphore = new Semaphore(5);
