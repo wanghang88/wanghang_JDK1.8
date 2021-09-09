@@ -13,6 +13,10 @@ package wanghang.thread;
   JAVA多线程（五）用lock、synchronized、阻塞队列三种方法实现生产者消费者模式
   https://blog.csdn.net/antony9118/article/details/51500278
 
+
+  面试:多线程知识梳理(1基本概念,2Thread,3线程池,4线程工具类ThreadlLocal,Semaphore,CountDownLatch,CyclicBarrier)
+  https://mp.weixin.qq.com/s/Km4-aiWDUDQ4tTU4pXOesA
+
  */
 public class ThreadDemo {
 

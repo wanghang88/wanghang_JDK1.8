@@ -29,6 +29,9 @@ package wanghang.jvm;
    帝都的大雁：解刨的JVM(全面介绍JVM)
    https://mp.weixin.qq.com/s/oz2v3bVXGWeX945H6syoLA
 
+   面试:全面介绍JVM的,主要用来应对面试(1、类加载器,2、对象的创建过程,3、对象的内存布局,4、对象访问,5、JVM 内存区域,6、对象存活判断,7、垃圾回收算法,8、安全点,9、JVM 垃圾回收器)
+   https://mp.weixin.qq.com/s/acyOAGlVkhTTnMGLZyFX7A
+
 
  3:java的JVM调优:
    JVM日志参数的补全

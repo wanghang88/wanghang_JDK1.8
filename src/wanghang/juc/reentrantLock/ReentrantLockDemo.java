@@ -12,6 +12,10 @@ import java.util.concurrent.locks.ReentrantLock;
   https://blog.csdn.net/javazejian/article/details/75043422
 
 
+  面试：Java锁知识大梳理
+  https://mp.weixin.qq.com/s/pitfqdY3VJs4TTiX_ngMUA
+
+
 
 
   1)关于ReentrantLock非公平锁和公平锁是如何实现的？
