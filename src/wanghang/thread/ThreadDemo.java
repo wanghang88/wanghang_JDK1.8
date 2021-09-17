@@ -14,6 +14,10 @@ package wanghang.thread;
   https://blog.csdn.net/antony9118/article/details/51500278
 
 
+  java多线程之,手写死锁
+  https://mp.weixin.qq.com/s/kavJrIc0nsix9ckICO0Ing
+
+
   面试:多线程知识梳理(1基本概念,2Thread,3线程池,4线程工具类ThreadlLocal,Semaphore,CountDownLatch,CyclicBarrier)
   https://mp.weixin.qq.com/s/Km4-aiWDUDQ4tTU4pXOesA
 
