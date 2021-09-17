@@ -21,6 +21,11 @@ package wanghang.datastructure;
  https://github.com/MageByte-Zero/algorithms
 
 
+ 谢文锋的博客:数据结构与算法(包括博客和Github)
+ https://blog.csdn.net/xiewenfeng520/category_10055024.html
+ https://github.com/huajiexiewenfeng/data-structure-algorithm/tree/master/src/main/java/com/huajie
+
+
 
 
 
