@@ -16,6 +16,8 @@ package wanghang.juc;
 
  谢文峰的博客：CSDN博文,对Java并发编程的总结专题(对CAS,AQS,Callable 和 Runnable,Future,synchronized多线程的总结)
  https://blog.csdn.net/xiewenfeng520/category_9122681_2.html
+ 谢文锋的实践
+ https://github.com/huajiexiewenfeng/java-concurrent
 
 
  */
