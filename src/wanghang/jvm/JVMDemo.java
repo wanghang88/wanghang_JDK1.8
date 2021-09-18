@@ -43,6 +43,11 @@ package wanghang.jvm;
    JVM GC运行原理(主要是垃圾回收原理以及怎么排查FullGC)
    https://mp.weixin.qq.com/s/P8s3kuceBNovUP5adXpFCQ
 
+   美团技术分享：关于java应用的GC调优的分享
+   https://tech.meituan.com/2017/12/29/jvm-optimize.html
+
+
+
 
 
 
