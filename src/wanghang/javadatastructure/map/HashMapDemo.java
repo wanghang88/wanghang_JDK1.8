@@ -20,6 +20,11 @@ import java.util.Map;
  7,查询操作。
  https://blog.csdn.net/qq_26323323/article/details/86219905
 
+ JDK1.8HashMap的原理分析(主要从:存储结构,索引计算,put方法,扩容机制等全方位地分析HashMap),从面试的角度
+ https://tech.meituan.com/2016/06/24/java-hashmap.html
+ 美团技术的分享:对与JDK1.8HashMap的原理分析;
+ https://tech.meituan.com/2016/06/24/java-hashmap.html
+
 
 
 
@@ -36,8 +41,11 @@ import java.util.Map;
 
 
 
- 如何决定使用 HashMap 还是 TreeMap(也就是HashMap和TreeMap的区别)
- https://mp.weixin.qq.com/s/whnqAD6k83Mfl-IHgbl4ig
+
+
+
+
+
 
  */
 public class HashMapDemo {
