@@ -13,13 +13,14 @@ package wanghang.thread;
   JAVA多线程（五）用lock、synchronized、阻塞队列三种方法实现生产者消费者模式
   https://blog.csdn.net/antony9118/article/details/51500278
 
-
   java多线程之,手写死锁
   https://mp.weixin.qq.com/s/kavJrIc0nsix9ckICO0Ing
 
+  美团技术分享：Java中的锁的分析
+  https://tech.meituan.com/2018/11/15/java-lock.html
+
   美团技术分享：关于线程池的使用,包括对线程池的原理的分析，以及监控等介绍
   https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html
-
 
   面试:多线程知识梳理(1基本概念,2Thread,3线程池,4线程工具类ThreadlLocal,Semaphore,CountDownLatch,CyclicBarrier)
   https://mp.weixin.qq.com/s/Km4-aiWDUDQ4tTU4pXOesA
