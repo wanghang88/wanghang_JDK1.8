@@ -29,12 +29,24 @@ package wanghang.jvm;
    帝都的大雁：解刨的JVM(全面介绍JVM)
    https://mp.weixin.qq.com/s/oz2v3bVXGWeX945H6syoLA
 
+   面试:全面介绍JVM的,主要用来应对面试(1、类加载器,2、对象的创建过程,3、对象的内存布局,4、对象访问,5、JVM 内存区域,6、对象存活判断,7、垃圾回收算法,8、安全点,9、JVM 垃圾回收器)
+   https://mp.weixin.qq.com/s/acyOAGlVkhTTnMGLZyFX7A
+
+
+   谢文锋博客:对JVM几大方面有全面的介绍并且有代码相应的验证(面试汇总,运行时数据区，对象创建访问内存布局，内存回收原理，内存分配与回收策略，回收算法，回收器，监控命令工具，双亲委派等)
+   https://blog.csdn.net/xiewenfeng520/category_9283231.html
+
 
  3:java的JVM调优:
    JVM日志参数的补全
    https://mp.weixin.qq.com/s/XZFEgf1ZS7gNt7lku3TF4g
    JVM GC运行原理(主要是垃圾回收原理以及怎么排查FullGC)
    https://mp.weixin.qq.com/s/P8s3kuceBNovUP5adXpFCQ
+
+   美团技术分享：关于java应用的GC调优的分享
+   https://tech.meituan.com/2017/12/29/jvm-optimize.html
+
+
 
 
 
