@@ -18,6 +18,13 @@ package wanghang.juc;
  https://github.com/huajiexiewenfeng/java-concurrent
 
 
+ java8关于JUC并发相关的专题:
+ https://blog.csdn.net/panweiwei1994/category_9270636.html
+
+
+
+
+
  美团技术分享：Java中的锁的分析
  https://tech.meituan.com/2018/11/15/java-lock.html
 

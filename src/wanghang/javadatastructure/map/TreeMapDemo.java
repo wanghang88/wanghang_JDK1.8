@@ -7,6 +7,10 @@ package wanghang.javadatastructure.map;
  https://mp.weixin.qq.com/s/whnqAD6k83Mfl-IHgbl4ig
 
 
+ TreeMap是Map接口基于红黑树的实现，键值对是有序的.(可以了解下红黑树)
+ https://blog.csdn.net/panweiwei1994/article/details/77530819
+
+
 
 
 

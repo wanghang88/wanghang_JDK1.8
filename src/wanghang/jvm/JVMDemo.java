@@ -36,6 +36,9 @@ package wanghang.jvm;
    谢文锋博客:对JVM几大方面有全面的介绍并且有代码相应的验证(面试汇总,运行时数据区，对象创建访问内存布局，内存回收原理，内存分配与回收策略，回收算法，回收器，监控命令工具，双亲委派等)
    https://blog.csdn.net/xiewenfeng520/category_9283231.html
 
+   潘威威的博客:java虚拟机专题(包括:java内存区域划分,垃圾回收与分配,Class类文件结构,类加载机制,java内存模型)
+   https://blog.csdn.net/panweiwei1994/category_9271304.html
+
 
  3:java的JVM调优:
    JVM日志参数的补全
