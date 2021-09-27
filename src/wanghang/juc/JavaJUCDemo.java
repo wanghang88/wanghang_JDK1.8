@@ -17,12 +17,11 @@ package wanghang.juc;
  谢文锋的实践
  https://github.com/huajiexiewenfeng/java-concurrent
 
-
  java8关于JUC并发相关的专题:
  https://blog.csdn.net/panweiwei1994/category_9270636.html
 
-
-
+ java中关于并发编程的总结:
+ https://blog.csdn.net/qq_36500178/category_8355398.html
 
 
  美团技术分享：Java中的锁的分析
@@ -30,10 +29,7 @@ package wanghang.juc;
 
 
 
-
-
-
- 极客时间(关于并发编程的实战)的专题:
+ 极客时间(关于并发编程的实战)的专题的总结
  https://blog.csdn.net/zhaoenweiex/article/details/101363977
 
 
