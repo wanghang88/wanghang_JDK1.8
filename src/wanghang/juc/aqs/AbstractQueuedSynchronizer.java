@@ -12,6 +12,8 @@ package wanghang.juc.aqs;
   https://www.cnblogs.com/chengxiao/archive/2017/07/24/7141160.html#a1-1
   AQS原理分析也不错：
   https://www.jianshu.com/p/b7ec536c9ed7
+  AQS原理分析有对应的流程步骤的分析
+  https://blog.csdn.net/qq_36500178/article/details/106504044
 
 
   AQS的原理(手写AQS)

@@ -17,6 +17,9 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
            具体逻辑还得看实际的场景
            https://blog.csdn.net/yupi1057/article/details/80787013
 
+           ReentrantReadWriteLock源码分析(主要业务流程的分析)
+           https://blog.csdn.net/qq_36500178/article/details/106860035
+
  */
 public class ReentrantReadWriteLockDemo {
 
