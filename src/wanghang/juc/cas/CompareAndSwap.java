@@ -1,6 +1,8 @@
 package wanghang.juc.cas;
 
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 /**
  *cas:
  * 也叫比较交换，是一种无锁原子算法
@@ -16,4 +18,15 @@ package wanghang.juc.cas;
  *
  */
 public class CompareAndSwap {
+
+
+    AtomicInteger atomicInteger=new AtomicInteger(9);
+
+
+
+
+
 }
+
+
+

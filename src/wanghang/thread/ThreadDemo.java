@@ -28,6 +28,8 @@ package wanghang.thread;
  */
 public class ThreadDemo {
 
+    ThreadLocal threadLocal=new InheritableThreadLocal();
+
 
 
 }
