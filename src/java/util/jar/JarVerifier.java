@@ -208,7 +208,7 @@ class JarVerifier {
                 mev.update((byte)b);
             }
         } else {
-            processEntry(mev);
+           /* processEntry(mev);*/
         }
     }
 
@@ -227,14 +227,14 @@ class JarVerifier {
                 mev.update(b, off, n);
             }
         } else {
-            processEntry(mev);
+          /*  processEntry(mev);*/
         }
     }
 
     /**
      * called when we reach the end of entry in one of the read() methods.
      */
-    private void processEntry(ManifestEntryVerifier mev)
+  /*  private void processEntry(ManifestEntryVerifier mev)
         throws IOException
     {
         if (!parsingBlockOrSF) {
@@ -272,7 +272,7 @@ class JarVerifier {
                             }
 
                             sfv.setSignatureFile(bytes);
-                            sfv.process(sigFileSigners, manifestDigests);
+                          *//*  sfv.process(sigFileSigners, manifestDigests);*//*
                         }
                     }
                     return;
@@ -315,7 +315,7 @@ class JarVerifier {
                         sfv.setSignatureFile(bytes);
                     }
                 }
-                sfv.process(sigFileSigners, manifestDigests);
+             *//*   sfv.process(sigFileSigners, manifestDigests);*//*
 
             } catch (IOException ioe) {
                 // e.g. sun.security.pkcs.ParsingException
@@ -332,7 +332,7 @@ class JarVerifier {
                 // ignore and treat as unsigned
             }
         }
-    }
+    }*/
 
     /**
      * Return an array of java.security.cert.Certificate objects for

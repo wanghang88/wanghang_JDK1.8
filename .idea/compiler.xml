@@ -5,5 +5,13 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="wanghang_JDK1.8" target="" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="wanghang_JDK1.8" options="" />
+    </option>
   </component>
 </project>

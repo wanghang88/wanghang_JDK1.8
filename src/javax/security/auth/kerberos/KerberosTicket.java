@@ -76,7 +76,7 @@ import sun.security.util.*;
  * @author Mayank Upadhyay
  * @since 1.4
  */
-public class KerberosTicket implements Destroyable, Refreshable,
+/*public class KerberosTicket implements Destroyable, Refreshable,
          java.io.Serializable {
 
     private static final long serialVersionUID = 7395334370157380539L;
@@ -92,17 +92,17 @@ public class KerberosTicket implements Destroyable, Refreshable,
 
     private static final int NUM_FLAGS = 32;
 
-    /**
+    *//**
      *
      * ASN.1 DER Encoding of the Ticket as defined in the
      * Kerberos Protocol Specification RFC4120.
      *
      * @serial
-     */
+     *//*
 
     private byte[] asn1Encoding;
 
-    /**
+    *//**
      *{@code KeyImpl} is serialized by writing out the ASN1 Encoded bytes
      * of the encryption key. The ASN1 encoding is defined in RFC4120 and as
      * follows:
@@ -114,45 +114,45 @@ public class KerberosTicket implements Destroyable, Refreshable,
      * </pre>
      *
      * @serial
-     */
+     *//*
 
     private KeyImpl sessionKey;
 
-    /**
+    *//**
      *
      * Ticket Flags as defined in the Kerberos Protocol Specification RFC4120.
      *
      * @serial
-     */
+     *//*
 
     private boolean[] flags;
 
-    /**
+    *//**
      *
      * Time of initial authentication
      *
      * @serial
-     */
+     *//*
 
     private Date authTime;
 
-    /**
+    *//**
      *
      * Time after which the ticket is valid.
      * @serial
-     */
+     *//*
     private Date startTime;
 
-    /**
+    *//**
      *
      * Time after which the ticket will not be honored. (its expiration time).
      *
      * @serial
-     */
+     *//*
 
     private Date endTime;
 
-    /**
+    *//**
      *
      * For renewable Tickets it indicates the maximum endtime that may be
      * included in a renewal. It can be thought of as the absolute expiration
@@ -160,42 +160,42 @@ public class KerberosTicket implements Destroyable, Refreshable,
      * for tickets that are not renewable.
      *
      * @serial
-     */
+     *//*
 
     private Date renewTill;
 
-    /**
+    *//**
      *
      * Client that owns the service ticket
      *
      * @serial
-     */
+     *//*
 
     private KerberosPrincipal client;
 
-    /**
+    *//**
      *
      * The service for which the ticket was issued.
      *
      * @serial
-     */
+     *//*
 
     private KerberosPrincipal server;
 
-    /**
+    *//**
      *
      * The addresses from where the ticket may be used by the client.
      * This field may be null when the ticket is usable from any address.
      *
      * @serial
-     */
+     *//*
 
 
     private InetAddress[] clientAddresses;
 
     private transient boolean destroyed = false;
 
-    /**
+    *//**
      * Constructs a KerberosTicket using credentials information that a
      * client either receives from a KDC or reads from a cache.
      *
@@ -225,7 +225,7 @@ public class KerberosTicket implements Destroyable, Refreshable,
      * @param clientAddresses the addresses from where the ticket may be
      * used by the client. This field may be null when the ticket is usable
      * from any address.
-     */
+     *//*
     public KerberosTicket(byte[] asn1Encoding,
                          KerberosPrincipal client,
                          KerberosPrincipal server,
@@ -327,36 +327,36 @@ public class KerberosTicket implements Destroyable, Refreshable,
            this.clientAddresses = clientAddresses.clone();
     }
 
-    /**
+    *//**
      * Returns the client principal associated with this ticket.
      *
      * @return the client principal.
-     */
+     *//*
     public final KerberosPrincipal getClient() {
         return client;
     }
 
-    /**
+    *//**
      * Returns the service principal associated with this ticket.
      *
      * @return the service principal.
-     */
+     *//*
     public final KerberosPrincipal getServer() {
         return server;
     }
 
-    /**
+    *//**
      * Returns the session key associated with this ticket.
      *
      * @return the session key.
-     */
+     *//*
     public final SecretKey getSessionKey() {
         if (destroyed)
             throw new IllegalStateException("This ticket is no longer valid");
         return sessionKey;
     }
 
-    /**
+    *//**
      * Returns the key type of the session key associated with this
      * ticket as defined by the Kerberos Protocol Specification.
      *
@@ -364,161 +364,161 @@ public class KerberosTicket implements Destroyable, Refreshable,
      * ticket.
      *
      * @see #getSessionKey()
-     */
+     *//*
     public final int getSessionKeyType() {
         if (destroyed)
             throw new IllegalStateException("This ticket is no longer valid");
         return sessionKey.getKeyType();
     }
 
-    /**
+    *//**
      * Determines if this ticket is forwardable.
      *
      * @return true if this ticket is forwardable, false if not.
-     */
+     *//*
     public final boolean isForwardable() {
         return flags == null? false: flags[FORWARDABLE_TICKET_FLAG];
     }
 
-    /**
+    *//**
      * Determines if this ticket had been forwarded or was issued based on
      * authentication involving a forwarded ticket-granting ticket.
      *
      * @return true if this ticket had been forwarded or was issued based on
      * authentication involving a forwarded ticket-granting ticket,
      * false otherwise.
-     */
+     *//*
     public final boolean isForwarded() {
         return flags == null? false: flags[FORWARDED_TICKET_FLAG];
     }
 
-    /**
+    *//**
      * Determines if this ticket is proxiable.
      *
      * @return true if this ticket is proxiable, false if not.
-     */
+     *//*
     public final boolean isProxiable() {
         return flags == null? false: flags[PROXIABLE_TICKET_FLAG];
     }
 
-    /**
+    *//**
      * Determines is this ticket is a proxy-ticket.
      *
      * @return true if this ticket is a proxy-ticket, false if not.
-     */
+     *//*
     public final boolean isProxy() {
         return flags == null? false: flags[PROXY_TICKET_FLAG];
     }
 
 
-    /**
+    *//**
      * Determines is this ticket is post-dated.
      *
      * @return true if this ticket is post-dated, false if not.
-     */
+     *//*
     public final boolean isPostdated() {
         return flags == null? false: flags[POSTDATED_TICKET_FLAG];
     }
 
-    /**
+    *//**
      * Determines is this ticket is renewable. If so, the {@link #refresh()
      * refresh} method can be called, assuming the validity period for
      * renewing is not already over.
      *
      * @return true if this ticket is renewable, false if not.
-     */
+     *//*
     public final boolean isRenewable() {
         return flags == null? false: flags[RENEWABLE_TICKET_FLAG];
     }
 
-    /**
+    *//**
      * Determines if this ticket was issued using the Kerberos AS-Exchange
      * protocol, and not issued based on some ticket-granting ticket.
      *
      * @return true if this ticket was issued using the Kerberos AS-Exchange
      * protocol, false if not.
-     */
+     *//*
     public final boolean isInitial() {
         return flags == null? false: flags[INITIAL_TICKET_FLAG];
     }
 
-    /**
+    *//**
      * Returns the flags associated with this ticket. Each element in the
      * returned array indicates the value for the corresponding bit in the
      * ASN.1 BitString that represents the ticket flags.
      *
      * @return the flags associated with this ticket.
-     */
+     *//*
     public final boolean[]  getFlags() {
         return (flags == null? null: flags.clone());
     }
 
-    /**
+    *//**
      * Returns the time that the client was authenticated.
      *
      * @return the time that the client was authenticated
      *         or null if not set.
-     */
+     *//*
     public final java.util.Date getAuthTime() {
         return (authTime == null) ? null : (Date)authTime.clone();
     }
 
-    /**
+    *//**
      * Returns the start time for this ticket's validity period.
      *
      * @return the start time for this ticket's validity period
      *         or null if not set.
-     */
+     *//*
     public final java.util.Date getStartTime() {
         return (startTime == null) ? null : (Date)startTime.clone();
     }
 
-    /**
+    *//**
      * Returns the expiration time for this ticket's validity period.
      *
      * @return the expiration time for this ticket's validity period.
-     */
+     *//*
     public final java.util.Date getEndTime() {
         return (endTime == null) ? null : (Date) endTime.clone();
     }
 
-    /**
+    *//**
      * Returns the latest expiration time for this ticket, including all
      * renewals. This will return a null value for non-renewable tickets.
      *
      * @return the latest expiration time for this ticket.
-     */
+     *//*
     public final java.util.Date getRenewTill() {
         return (renewTill == null) ? null: (Date)renewTill.clone();
     }
 
-    /**
+    *//**
      * Returns a list of addresses from where the ticket can be used.
      *
      * @return ths list of addresses or null, if the field was not
      * provided.
-     */
+     *//*
     public final java.net.InetAddress[] getClientAddresses() {
         return (clientAddresses == null) ? null: clientAddresses.clone();
     }
 
-    /**
+    *//**
      * Returns an ASN.1 encoding of the entire ticket.
      *
      * @return an ASN.1 encoding of the entire ticket.
-     */
+     *//*
     public final byte[] getEncoded() {
         if (destroyed)
             throw new IllegalStateException("This ticket is no longer valid");
         return asn1Encoding.clone();
     }
 
-    /** Determines if this ticket is still current.  */
+    *//** Determines if this ticket is still current.  *//*
     public boolean isCurrent() {
         return endTime == null? false: (System.currentTimeMillis() <= endTime.getTime());
     }
 
-    /**
+    *//**
      * Extends the validity period of this ticket. The ticket will contain
      * a new session key if the refresh operation succeeds. The refresh
      * operation will fail if the ticket is not renewable or the latest
@@ -536,7 +536,7 @@ public class KerberosTicket implements Destroyable, Refreshable,
      *
      * @see #isRenewable()
      * @see #getRenewTill()
-     */
+     *//*
     public void refresh() throws RefreshFailedException {
 
         if (destroyed)
@@ -581,9 +581,9 @@ public class KerberosTicket implements Destroyable, Refreshable,
             throw rfException;
         }
 
-        /*
+        *//*
          * In case multiple threads try to refresh it at the same time.
-         */
+         *//*
         synchronized (this) {
             try {
                 this.destroy();
@@ -606,10 +606,10 @@ public class KerberosTicket implements Destroyable, Refreshable,
         }
     }
 
-    /**
+    *//**
      * Destroys the ticket and destroys any sensitive information stored in
      * it.
-     */
+     *//*
     public void destroy() throws DestroyFailedException {
         if (!destroyed) {
             Arrays.fill(asn1Encoding, (byte) 0);
@@ -626,9 +626,9 @@ public class KerberosTicket implements Destroyable, Refreshable,
         }
     }
 
-    /**
+    *//**
      * Determines if this ticket has been destroyed.
-     */
+     *//*
     public boolean isDestroyed() {
         return destroyed;
     }
@@ -665,12 +665,12 @@ public class KerberosTicket implements Destroyable, Refreshable,
                 "\n"));
     }
 
-    /**
+    *//**
      * Returns a hashcode for this KerberosTicket.
      *
      * @return a hashCode() for the {@code KerberosTicket}
      * @since 1.6
-     */
+     *//*
     public int hashCode() {
         int result = 17;
         if (isDestroyed()) {
@@ -702,7 +702,7 @@ public class KerberosTicket implements Destroyable, Refreshable,
         return result * 37 + Arrays.hashCode(flags);
     }
 
-    /**
+    *//**
      * Compares the specified Object with this KerberosTicket for equality.
      * Returns true if the given object is also a
      * {@code KerberosTicket} and the two
@@ -713,7 +713,7 @@ public class KerberosTicket implements Destroyable, Refreshable,
      * false otherwise. NOTE: Returns false if either of the KerberosTicket
      * objects has been destroyed.
      * @since 1.6
-     */
+     *//*
     public boolean equals(Object other) {
 
         if (other == this)
@@ -782,4 +782,4 @@ public class KerberosTicket implements Destroyable, Refreshable,
                 new InvalidObjectException(iae.getMessage()).initCause(iae);
         }
     }
-}
+}*/
